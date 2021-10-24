@@ -1,0 +1,65 @@
+{
+  "name": "vue3-vite-eslint-prettier-template",
+  "version": "0.0.1",
+  "homepage": "https://github.com/iota9star/vue3-vite-eslint-prettier-template",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:iota9star/vue3-vite-eslint-prettier-template.git"
+  },
+  "description": "vue3 vite eslint prettier h5 template",
+  "author": "iota9star <iota9star@foxmail.com>",
+  "license": "Apache-2.0",
+  "maintainers": [
+    {
+      "name": "iota9star",
+      "email": "iota9star@foxmail.com"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/iota9star/vue3-vite-eslint-prettier-template/issues"
+  },
+  "scripts": {
+    "dev:dev": "vite --mode development --host --debug",
+    "dev:staging": "vite --mode staging",
+    "dev:prod": "vite --mode production",
+    "build:dev": "vite build --mode staging",
+    "build:staging": "vite build --mode staging",
+    "build:prod": "vite build --mode production",
+    "serve:dev": "vite preview --mode development",
+    "serve:staging": "vite preview --mode staging",
+    "serve:prod": "vite preview --mode production"
+  },
+  "dependencies": {
+    "await-to-js": "^3.0.0",
+    "axios": "^0.21.4",
+    "nprogress": "^0.2.0",
+    "secure-ls": "^1.2.6",
+    "uuid": "^8.3.2",
+    "vue": "^3.0.7",
+    "vue-router": "^4.0.11",
+    "vuex": "^4.0.2",
+    "vuex-persistedstate": "^4.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "@vitejs/plugin-legacy": "^1.5.3",
+    "@vitejs/plugin-vue": "^1.9.2",
+    "@vue/compiler-sfc": "^3.2.19",
+    "autoprefixer": "^10.3.6",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-import": "^1.13.3",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^7.18.0",
+    "prettier": "^2.4.1",
+    "rollup-plugin-analyzer": "^4.0.0",
+    "rollup-plugin-node-polyfills": "^0.2.1",
+    "sass": "^1.42.1",
+    "vite": "^2.5.10",
+    "vite-plugin-compression": "^0.3.5",
+    "vite-plugin-html": "^2.1.1",
+    "vite-plugin-style-import": "^1.2.1"
+  }
+}
